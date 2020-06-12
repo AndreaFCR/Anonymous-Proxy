@@ -1,4 +1,11 @@
 .page__header {
-  background-color: lightblue;
-  border: 1px solid red;
+  background-color: $color-midtone;
+  height: 44px;
+  padding: 15px 14px;
+  position: fixed;
+  width: 44px;
+
+  a {
+    padding: 0 1px;
+  }
 }
