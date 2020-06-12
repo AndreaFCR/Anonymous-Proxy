@@ -1,13 +1,13 @@
 .page__header {
   background-color: $color-midtone;
   height: 44px;
-  padding: 15px 14px;
+  padding-top: 15px;
   position: fixed;
   top: 0;
   width: 44px;
   z-index: 1;
 
   a {
-    padding: 0 1px;
+    padding: 14px;
   }
 }
