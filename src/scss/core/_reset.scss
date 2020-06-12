@@ -355,6 +355,13 @@ template {
   margin: 0;
   padding: 0;
   color: inherit;
-  list-style-type: none;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  margin: 0;
 }
