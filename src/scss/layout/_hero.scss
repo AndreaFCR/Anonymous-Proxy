@@ -1,19 +1,29 @@
 .hero {
+  background: url(../images/cover.jpg) no-repeat top;
+  background-size: cover;
+  color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: 568px;
   width: 100%;
-  background: url(.././images/cover.jpg) no-repeat top center;
-  color: $color-primary;
-  //   position: absolute;
 
   &__title {
     font-family: $font-family-title;
     font-size: 42px;
+    text-align: center;
     text-transform: uppercase;
     line-height: 55px;
+    margin-bottom: 10px;
 
     span {
       display: block;
     }
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
   }
 
   &__scroll {
@@ -22,6 +32,7 @@
     height: 45px;
     padding-top: 15px;
     width: 45px;
+    margin-bottom: 53px;
 
     a {
       padding: 11px;
