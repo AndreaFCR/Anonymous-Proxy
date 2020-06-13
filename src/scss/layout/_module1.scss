@@ -57,3 +57,22 @@
     }
   }
 }
+
+@include desktop {
+  .module1 {
+    padding: 0 275px;
+
+    &__pretitle {
+      font-size: 16px;
+      margin-top: 60px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__button {
+      width: 160px;
+    }
+  }
+}
