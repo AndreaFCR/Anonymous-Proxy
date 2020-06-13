@@ -2,7 +2,7 @@
   background-color: $color-light;
   padding: 0 15px;
   display: grid;
-  grid-template-columns: 1fr 63% 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 45px;
   width: 100%;
   text-align: center;
@@ -12,7 +12,7 @@
     text-transform: capitalize;
     line-height: 30px;
     margin-top: 30px;
-    grid-column: span 4;
+    grid-column: span 3;
   }
 
   &__item {
@@ -41,5 +41,50 @@
     line-height: 45px;
     grid-column-start: 2;
     margin: 0 auto 60px;
+  }
+}
+
+@include tablet {
+  .module2 {
+    padding: 0 39px;
+    grid-column-gap: 30px;
+
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+
+    &__item {
+      grid-column: auto;
+
+      &__title {
+        font-size: 24px;
+        margin-bottom: 14px;
+      }
+
+      &__text {
+        font-size: 20px;
+      }
+    }
+
+    &__button {
+      width: 210px;
+      margin: 15px auto 60px;
+    }
+  }
+}
+
+@include desktop {
+  .module2 {
+    padding: 0 85px;
+
+    &__title {
+      font-size: 32px;
+      margin-top: 60px;
+    }
+
+    &__button {
+      width: 255px;
+    }
   }
 }
