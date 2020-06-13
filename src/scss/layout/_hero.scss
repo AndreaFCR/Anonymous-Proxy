@@ -34,8 +34,29 @@
     width: 45px;
     margin-bottom: 53px;
 
-    a {
+    &__link {
       padding: 11px;
+    }
+  }
+}
+
+@include tablet {
+  .hero {
+    height: 768px;
+
+    &__title {
+      font-size: 80px;
+      line-height: 106px;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    &__scroll {
+      margin-bottom: 45px;
     }
   }
 }
