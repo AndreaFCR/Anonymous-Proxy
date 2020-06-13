@@ -60,3 +60,17 @@
     }
   }
 }
+
+@include desktop {
+  .hero {
+    &__title {
+      font-size: 100px;
+      line-height: 132px;
+      margin-bottom: 0;
+    }
+
+    &__scroll {
+      margin-bottom: 13px;
+    }
+  }
+}
