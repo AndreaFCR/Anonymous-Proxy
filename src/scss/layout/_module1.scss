@@ -6,7 +6,6 @@
     font-size: 14px;
     line-height: 30px;
     margin-top: 30px;
-    margin-bottom: 1px;
     text-transform: capitalize;
   }
 
@@ -35,5 +34,26 @@
     margin-bottom: 45px;
     text-align: center;
     width: 76px;
+  }
+}
+
+@include tablet {
+  .module1 {
+    padding: 0 39px;
+
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+      margin-bottom: 30px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__button {
+      margin-bottom: 60px;
+      width: 91px;
+    }
   }
 }
