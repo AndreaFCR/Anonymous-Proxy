@@ -4,7 +4,6 @@
   line-height: 30px;
   padding-bottom: 45px;
   width: 100%;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,12 +16,20 @@
     transform: translate(0, -50%);
     padding-top: 10px;
     width: 45px;
+    margin-bottom: 14.5px;
+    text-align: center;
 
     &__link {
       padding: 11px;
     }
   }
   &__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     &__nav {
       margin-bottom: 30px;
       text-transform: uppercase;
