@@ -12,10 +12,20 @@
 
 @keyframes swap-up {
   from {
-    transform: translate(0, -50%);
+    transform: translate(0, -100%);
   }
 
   to {
     transform: translate(0, 0);
+  }
+}
+
+@keyframes swap-down {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, 100%);
   }
 }

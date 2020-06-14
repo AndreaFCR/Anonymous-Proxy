@@ -33,6 +33,10 @@
     padding-top: 15px;
     width: 45px;
     margin-bottom: 53px;
+    animation-name: swap-down;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
 
     &__link {
       padding: 11px;
