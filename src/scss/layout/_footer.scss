@@ -49,6 +49,8 @@
         text-transform: lowercase;
         &__heart {
           color: $color-tertiary;
+          font-family: Dingbats2;
+          text-transform: uppercase;
         }
       }
     }
