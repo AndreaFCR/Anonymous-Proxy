@@ -35,6 +35,12 @@
     text-align: center;
     width: 76px;
   }
+
+  &__button:hover {
+    color: $color-primary;
+    background-color: $color-tertiary;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
 }
 
 @include tablet {
