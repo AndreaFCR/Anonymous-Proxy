@@ -42,6 +42,12 @@
     grid-column-start: 2;
     margin: 0 auto 60px;
   }
+
+  &__button:hover {
+    background-color: $color-dark;
+    border: 2px solid $color-dark;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
+  }
 }
 
 @include tablet {
