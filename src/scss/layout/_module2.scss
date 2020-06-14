@@ -41,6 +41,9 @@
     line-height: 45px;
     grid-column-start: 2;
     margin: 0 auto 60px;
+    transition: background-color ease 0.5s;
+    transition: border ease 0.5s;
+    transition: box-shadow ease 0.8s;
   }
 
   &__button:hover {
