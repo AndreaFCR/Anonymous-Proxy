@@ -11,6 +11,7 @@
   &__scroll {
     background-color: $color-primary;
     border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     height: 45px;
     transform: translate(0, -50%);
     padding-top: 10px;
@@ -52,10 +53,6 @@
       }
     }
   }
-}
-
-.page__footer:hover {
-  animation-play-state: running;
 }
 
 @include tablet {
