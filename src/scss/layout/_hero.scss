@@ -12,9 +12,9 @@
   &__title {
     font-family: $font-family-title;
     font-size: 42px;
+    line-height: 55px;
     text-align: center;
     text-transform: uppercase;
-    line-height: 55px;
     margin-bottom: 10px;
 
     &__span {
@@ -30,8 +30,8 @@
     background-color: $color-primary;
     border-radius: 50%;
     height: 45px;
-    padding-top: 15px;
     width: 45px;
+    padding-top: 15px;
     margin-bottom: 53px;
     animation-name: swap-down;
     animation-duration: 2s;
