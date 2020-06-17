@@ -1,0 +1,19 @@
+.special__offer {
+  background-color: $color-tertiary;
+  display: none;
+}
+
+@include tablet {
+  .special__offer {
+    display: block;
+    &__title {
+      text-align: center;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px 0;
+    }
+  }
+}
