@@ -16,17 +16,17 @@ Task for final evaluation of module 1.  Task's aim is to develop a landing page 
 #### Installation
 
 ````
-nmp install
+npm install
 ````
 #### Run the project
 
 ````
-nmp start
+npm start
 ````
 #### Public the project
 
 ````
-nmp run docs
+npm run docs
 ````
 
 
