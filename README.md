@@ -8,7 +8,7 @@ Task for final evaluation of module 1.  Task's aim is to develop a landing page 
 
 [Adalab web starter kit](https://github.com/Adalab/Adalab-web-starter-kit)
 
-#### Installation of packages
+#### Installation
 
 ````
 nmp install
