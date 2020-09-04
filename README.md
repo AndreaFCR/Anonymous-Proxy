@@ -25,6 +25,6 @@ nmp run docs
 ````
 
 
-## Auhtor ✒️
+## Author ✒️
 
 Andrea Clavijo Ricaldi
